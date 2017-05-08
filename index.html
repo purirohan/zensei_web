@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zensei</title>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet" >
+    <link href="css/flexslider.css" rel="stylesheet" >
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/queries.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+      </head>
+      <body>
+        <header id="home">
+
+          <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#top">Zensei</a>
+                  </div>
+                  <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                      <li><a href="#intro">Introduction</a></li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Features <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#user-recognition">User Recognition</a></li>
+                          <li><a href="#sensor-board">Sensor Board</a></li>
+                          <li><a href="#experiment">Experimental Evaluation</a></li>
+                          <li><a href="#smartphone">Smartphone Case</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#video">Video</a></li>
+                      <li><a href="#publications">Publications</a></li>
+                      <li><a href="#team">Team</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="presskit/zensei_press.zip">Press Kit</a></li>
+                    </ul>
+                  </div><!--/.nav-collapse -->
+                </div>
+              </nav>
+
+          <section class="zensei-top" id="top">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center inner">
+                  <h1 class="animated fadeInDown">Zensei<span></span></h1>
+                  <p class="animated fadeInUp delay-05s">
+                  Embedded, Multi-electrode Bioimpedance Sensing <br>
+                  for Implicit, Ubiquitous User Recognition
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro text-center section-padding" id="intro">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h1 class="arrow">Introduction</h1>
+                <p>
+                  New interactions and connectivity protocols are increasingly expanding into shared objects and environments, such as furniture, vehicles, lighting, and entertainment systems. For transparent personalization
+                  in such contexts, we see an opportunity for embedded recognition, to complement traditional, explicit authentication. <br> <br>
+                  We introduce Zensei, an implicit sensing system that leverages bio-sensing, signal processing and machine learning to classify uninstrumented users by their body’s electrical properties. Zensei could allow many objects to recognize users. E.g., phones that unlock when held, cars that automatically adjust mirrors and seats, or power tools that restore user setting. <br> <br>
+                  We introduce wide-spectrum bioimpedance hardware that measures both amplitude and phase. It extends previous approaches through multi-electrode sensing and high-speed wireless data collection for embedded devices. We implement the sensing in devices and furniture, where unique electrode configurations generate characteristic profiles based on user’s unique electrical properties. Finally, we discuss results from a comprehensive, longitudinal 22-day data collection experiment with 46 subjects. Our analysis shows promising classification accuracy and low false acceptance rate.
+                  <br>
+                  <br>
+
+                  This project was completed at <a href="http://media.mit.edu">MIT Media Lab</a> in collaboration with <a href="http://london.takram.com">Takram London</a> and <a href="http://atap.google.com">Google ATAP</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- video -->
+        <section class="swag text-center" id="video">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/5P3gj3cMOzc" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- sensor, left-image -->
+        <section class="text-center clear content" id="user-recognition">
+          <div class="container-fluid nopadding responsive-services">
+            <div class="wrapper">
+              <div class="col-md-6 wp1">
+                <div class="content-image">
+                  <img src="img/03_zensei.jpg" alt="Zensei User Recognition">
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="content-caption">
+                  <h1 class="arrow">Zensei: New User Recognition Technology</h1>
+                  <p>
+                   
+Zensei enables physical objects to identify users by sensing the body’s electrical properties and touch/grasping behavior through electrical frequency response sensing. It allows almost any object to be capable of user recognition. For example, a phone that unlocks as it is picked up, a car that adjusts the mirrors and seat based on the driver, or a shared tablet that activates parental mode when a child holds it.
+                  </p>
+                  <p>
+                    The sensor hardware is small in size and works by sensing the electrical frequency response properties of a user touching a surface. An array of electrodes measures this response from multiple perspectives, building up a virtual representation of the user's electricle profile depending on their skin characteristics and touch/grasping style. Thousands of  frequency properties are then collected and fed into a machine learning algorithm for subsequent user recognition. This electrode array data, when combined with the use of an AC signal, allows Zensei to be implemented in a wide variety of surfaces and configurations both with and without direct skin contact.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- sensor exploded view, right-image -->
+        <section class="text-center clear content" id="sensor-board">
+          <div class="container-fluid nopadding responsive-services">
+            <div class="wrapper">
+            <div class="col-md-6 wp3">
+                <div class="content-image">
+                  <img src="img/09_board_zensei.jpg" alt="Zensei Board">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="content-caption">
+                  <h1 class="arrow">DESIGN OF FULLY-INTEGRATED, WIRELESS, AND EMBEDDABLE SENSING BOARD</h1>
+                  <p>
+                    Zensei works by sensing the amplitude and phase response of an extremely tiny AC signal through an array of up to 8 electrodes. The signal modulated through one electrode at a time before being recieved at the remaining sensing electrodes for every possible electrode rotation. 
+                  </p>
+                  <p>
+                    On-board signal generators create sine waves at a range of programmable frequencies (~1KHz-1.5MHz). The signal is then amplified and outputs at a select electrode pair. A part of the user’s body touches the electrodes, and the return signal’s amplitude and phase component are captured with the Analog-to-Digital converter (ADC) port of the mi- croprocessor and RF gain and phase detector IC. Our current sensor board hardware supports up to eight electrodes. The captured amplitude and phase data are  then transferred to a PC or Phone to be processed by a machine learning classifier.
+
+                  </p>
+                </div>
+              </div>
+
+              
+
+            </div>
+          </div>
+        </section>
+
+
+        <!-- lighting, left-image -->
+        <section class="text-center clear content" id="experiment">
+          <div class="container-fluid nopadding responsive-services">
+            <div class="wrapper">
+              
+
+ <div class="col-md-6 wp3">
+                <div class="content-image">
+                 <video autoplay="autoplay" loop="loop" width="80%" controsl muted>
+  <source src="img/zensei_classifier2.mov" type="video/mp4" />
+  <img src="presskit/zensei_press/gif/zensei_prototypeclassifier.gif" width="100%" height="300" /></video>
+                </div>
+              </div>
+
+
+
+
+
+              <div class="col-md-6">
+                <div class="content-caption">
+                  <h1 class="arrow">Experimental Evaluation</h1>
+                  <p>
+                    To evaluate the sensor's performance, a comprehensive, longitudinal 22-day data collection experiment was performed with 46 subjects on three different test rigs: a fixed hand print (direct skin contact, constrained posture), a chair (no skin contact, constrained posture), and a smartphone (direct skin contact, unconstrained posture).
+                  </p>
+                  <p>
+                    Best performance was achieved with either direct skin contact and either very constrained posture (pure intrinsic biometric) or highly variable posture (unique grasping sytles of the user). 
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+
+        <!-- classification, right-image -->
+        <section class="text-center clear content" id="smartphone">
+          <div class="container-fluid nopadding responsive-services">
+            <div class="wrapper">
+             <div class="col-md-6 wp3">
+           <div class="col-md-6 wp3">
+                <div class="content-image">
+                 <video autoplay="autoplay" loop="loop" width="80%" controsl muted>
+  <source src="img/zensei_case.mov" type="video/mp4" />
+  <img src="presskit/zensei_press/gif/zensei_case.gif" width="100%" height="300" /></video>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="content-caption">
+                  <h1 class="arrow">Smartphone Case</h1>
+                  <p>
+                    To further demonstrate the concept of casual identification on everyday devices, we built a round smartphone case to house our sensor board. The case's round shape invites unique grasping styles while simultaneously adding surface area for the painted-on electrodes.
+                  </p>
+                  <p>
+                    The Zensei sensor board is mounted within the case and communicates with the attached smartphone via bluetooth for continuous classification.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-6 wp3">
+                <div class="content-image">
+                  <img src="img/06_zensei.jpg" alt="Sensor Exploded View">
+                </div>
+              </div>
+              <div class="col-md-6 wp3">
+                <div class="content-image">
+                  <img src="img/05_zensei.jpg" alt="Sensor Exploded View">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- publications -->
+        <section class="text-center clear content" id="publications">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h1 class="arrow">Publications</h1>
+                <p>
+                  Munehiko Sato, Rohan S Puri, Alex Olwal<br>
+                  Yosuke Ushigome, Lukas Franciszkiewicz, Deepak Chandra, Ivan Poupyrev, Ramesh Raskar.<br>
+                  “Zensei: Embedded, Multi-electrode Bioimpedance Sensing for Implicit, Ubiquitous User Recognition,”  <a href="http://chi2017.acm.org/">ACM CHI ’17</a>, Denver, CO, USA, May, 2017.
+                  <br>
+                  <img src="img/paper-thumbnail.png" alt="Zensei Paper Image" width="600">
+                  <br>
+                  <a href="http://www.satomunehiko.com/data/paper/2017_CHI_Sato_Zensei.pdf">Download Paper PDF</a> <br> <a href="http://dl.acm.org/citation.cfm?doid=3025453.3025536">Visit ACM Digital Library page</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="team text-center section-padding" id="team">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Team</h1>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="team-wrapper">
+                <!-- mune -->
+                <div class="col-md-4 wp5">
+                  <img src="img/mune.png" alt="Team Member">
+                  <h2>Munehiko Sato</h2>
+                  <p>
+                    Research Scientist<br>
+                    Camera Culture Group <br>
+                    MIT Media Lab
+                  </p>
+                  <div class="social">
+                    <ul class="social-buttons">
+                      <li><a href="http://www.satomunehiko.com" class="social-btn" target="_blank"><i class="fa fa-globe"></i></a></li>
+                      <li><a href="https://twitter.com/munesato" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="mailto:info@satomunehiko.com" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- shigeo -->
+                <div class="col-md-4 wp5 delay-05s">
+                  <img src="img/rohan_headshot_round.jpg" alt="Team Member">
+                  <h2>Rohan S Puri</h2>
+                  <p>
+                    Research Engineer <br>
+                    Camera Culture Group <br>
+                    MIT Media Lab
+                  </p>
+                  <div class="social">
+                    <ul class="social-buttons">
+                      <!-- <li><a href="http://www.shigeodayo.com" class="social-btn" target="_blank"><i class="fa fa-dribbble"></i></a></li> -->
+                      <!-- <li><a href="https://twitter.com/shigeodayo" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li> -->
+          
+                      <li><a href="http://www.rohanspuri.com" class="social-btn" target="_blank"><i class="fa fa-globe"></i></a></li>
+                      <li><a href="https://twitter.com/rohanspuri" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="mailto:rohan@rohanspuri.com" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Alex -->
+                <div class="col-md-4 wp5 delay-1s">
+                  <img src="img/alex.png" alt="Team Member">
+                  <h2>Alex Olwal</h2>
+                  <p>
+                    Senior Research Scientist<br>
+                    Google
+                  </p>
+                  <div class="social">
+                    <ul class="social-buttons">
+                      <li><a href="http://www.olwal.com" class="social-btn" target="_blank"><i class="fa fa-globe"></i></a></li>
+                      <li><a href="https://twitter.com/alexolwal" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="mailto:olwal@media.mit.edu" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="team-wrapper">
+                <!-- Yosuke -->
+                <div class="col-md-4 wp5 delay-15s">
+                  <img src="img/yosuke.jpg" alt="Team Member">
+                  <h2>Yosuke Ushigome</h2>
+                  <p>
+                    Design Engineer<br>
+                    Takram London
+                  </p>
+                  <div class="social">
+                    <ul class="social-buttons">
+                      <li><a href="http://london.takram.com" class="social-btn" target="_blank"><i class="fa fa-globe"></i></a></li>
+                      <!--<li><a href="#" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li>-->
+                      <li><a href="mailto:ushi@takram.com" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Lukas -->
+                <div class="col-md-4 wp5 delay-2s">
+                  <img src="img/lukas.jpg" alt="Team Member">
+                  <h2>Lukas Franciszkiewicz</h2>
+                  <p>
+                    Design Engineer<br>
+                    Takram London
+                  </p>
+                  <div class="social">
+                    <ul class="social-buttons">
+                      <li><a href="http://london.takram.com" class="social-btn" target="_blank"><i class="fa fa-globe"></i></a></li>
+                      <!--<li><a href="#" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li>-->
+                      <li><a href="mailto:lukas@takram.com" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Deepak -->
+                <div class="col-md-4 wp5 delay-25s">
+                  <img src="img/deepak.jpg" alt="Team Member">
+                  <h2>Deepak Chandra</h2>
+                  <p>
+                    Technical Program Lead<br>
+                    Google ATAP
+                  </p>
+                  <div class="social">
+                    <ul class="social-buttons">
+                      <li><a href="https://www.linkedin.com/in/deepakchandra/" class="social-btn" target="_blank"><i class="fa fa-globe"></i></a></li>
+                      <!--<li><a href="#" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li>-->
+                      
+                    </ul>
+                  </div>
+                </div>
+                <!-- Ivan -->
+                <div class="col-md-4 wp5 delay-3s">
+                  <img src="img/ivan.jpg" alt="Team Member">
+                  <h2>Ivan Poupyrev</h2>
+                  <p>
+                    Technical Program Lead<br>
+                    Google ATAP
+                  </p>
+                  <div class="social">
+                    <ul class="social-buttons">
+                      <li><a href="http://atap.google.com" class="social-btn" target="_blank"><i class="fa fa-globe"></i></a></li>
+                      <li><a href="https://twitter.com/ivanpoupyrev" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="mailto:hello@ivanpoupyrev.com" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                     
+                    </ul>
+                  </div>
+                </div>
+                <!-- Ramesh -->
+                <div class="col-md-4 wp5 delay-35s">
+                  <img src="img/ramesh.png" alt="Team Member">
+                  <h2>Ramesh Raskar</h2>
+                  <p>
+                    Associate Professor<br>
+                    Camera Culture Group<br>
+                    MIT Media Lab
+                  </p>
+                  <div class="social">
+                    <ul class="social-buttons">
+                      <li><a href="http://web.media.mit.edu/~raskar/" class="social-btn" target="_blank"><i class="fa fa-globe"></i></a></li>
+                      <li><a href="https://twitter.com/raskarmit" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="mailto:raskar@mit.edu" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="copyright">
+                <p>Copyright &copy Team of Zensei All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/jquery.fancybox.pack.js"></script>
+        <script src="js/modernizr.js"></script>
+      </body>
+    </html>
